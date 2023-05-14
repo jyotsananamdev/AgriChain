@@ -36,7 +36,7 @@ utility package : Add new test classes here.
 ```
 
 ```
-**src > main >**
+src > main >
 resources :
 	-> Environment.properties : Keep you common information(data) here.
     	-> execution_config:
