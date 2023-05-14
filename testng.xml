@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="automation">
+    <listeners>
+    <listener class-name="com.agrichain.utility.ExecutionCycle"/>
+    </listeners>
+    <test thread-count="1" parallel="classes" name="automationTests">
+        <classes>
+            <class name="com.agrichain.Runner"/>
+        </classes>
+    </test> <!-- automationTests -->
+</suite> <!-- automation -->
+
+
